@@ -10,7 +10,7 @@ int main(){
     var1_ap = &var1;
     var2_ap = &var2;
 
-    printf("%p %d\n", var1_ap, var1);
-    printf("%p %d\n", var2_ap, var2);
+    printf("%p %d\n", var1_ap, *var1_ap);
+    printf("%p %d\n", &var2, var2);
 return 0;
 }
